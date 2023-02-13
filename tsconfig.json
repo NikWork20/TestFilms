@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "jsx": "react",
+    "lib": ["es5", "es6", "dom"],
+    "module": "commonjs",
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "target": "es5",
+    "noImplicitAny" : true,
+    "typeRoots": [
+      "custom_typings"
+    ],
+    "paths": {
+      "@assets/*":  ["./assets/*"],
+      "@src/*": ["src/*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "include": [
+    "src"
+  ],
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ],
+  "files": ["./types/index.d.ts"],
+  "extends": "@tsconfig/react-native/tsconfig.json"
+}

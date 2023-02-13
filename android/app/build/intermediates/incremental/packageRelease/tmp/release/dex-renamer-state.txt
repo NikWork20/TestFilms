@@ -1,0 +1,4 @@
+#Fri Feb 03 16:13:01 MSK 2023
+base.0=/home/user/Learn react/TestFilms/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

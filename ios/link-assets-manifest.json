@@ -1,0 +1,25 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/BenchNine-Bold.ttf",
+      "sha1": "5699644f9f21ed5a4e3cb48bc8cefa56497f9941"
+    },
+    {
+      "path": "assets/fonts/BenchNine-Light.ttf",
+      "sha1": "dbb2dd7e4abfaeb46c2c18d5bc1fb57ad04ee3e3"
+    },
+    {
+      "path": "assets/fonts/BenchNine-Regular.ttf",
+      "sha1": "cc8aa3455e50531552a2f3e12198a4adc96fc947"
+    },
+    {
+      "path": "assets/fonts/Berlin-Sans-FB.ttf",
+      "sha1": "6e361031397047f6ab260247309a05e4f02abdd5"
+    },
+    {
+      "path": "assets/fonts/Sofia-Sans-Extra-Condensed-Regular.ttf",
+      "sha1": "6f36b4efe0d47096efbf7805cf290457390efd59"
+    }
+  ]
+}

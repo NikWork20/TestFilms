@@ -1,0 +1,124 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.testfilms"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:3:5-67
+11-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:3:22-64
+12
+13    <application
+13-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:5:5-24:19
+14        android:name="com.testfilms.MainApplication"
+14-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:6:7-38
+15        android:allowBackup="false"
+15-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:10:7-34
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /home/user/.gradle/caches/transforms-3/2906539589d77d48208c25d8c6fefb75/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:icon="@mipmap/ic_launcher"
+17-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:8:7-41
+18        android:label="@string/app_name"
+18-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:7:7-39
+19        android:roundIcon="@mipmap/ic_launcher_round"
+19-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:9:7-52
+20        android:theme="@style/AppTheme" >
+20-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:11:7-38
+21        <activity
+21-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:12:7-23:18
+22            android:name="com.testfilms.MainActivity"
+22-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:13:9-37
+23            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+23-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:15:9-118
+24            android:exported="true"
+24-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:18:9-32
+25            android:label="@string/app_name"
+25-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:14:9-41
+26            android:launchMode="singleTask"
+26-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:16:9-40
+27            android:windowSoftInputMode="adjustResize" >
+27-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:17:9-51
+28            <intent-filter>
+28-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:19:9-22:25
+29                <action android:name="android.intent.action.MAIN" />
+29-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:20:13-65
+29-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:20:21-62
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:21:13-73
+31-->/home/user/Learn react/TestFilms/android/app/src/main/AndroidManifest.xml:21:23-70
+32            </intent-filter>
+33        </activity>
+34
+35        <provider
+35-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+36            android:name="com.imagepicker.ImagePickerProvider"
+36-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+37            android:authorities="com.testfilms.imagepickerprovider"
+37-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+38            android:exported="false"
+38-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+39            android:grantUriPermissions="true" >
+39-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+40            <meta-data
+40-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+41                android:name="android.support.FILE_PROVIDER_PATHS"
+41-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+42                android:resource="@xml/imagepicker_provider_paths" />
+42-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+43        </provider>
+44        <provider
+44-->[:react-native-webview] /home/user/Learn react/TestFilms/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+45            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+45-->[:react-native-webview] /home/user/Learn react/TestFilms/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+46            android:authorities="com.testfilms.fileprovider"
+46-->[:react-native-webview] /home/user/Learn react/TestFilms/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+47            android:exported="false"
+47-->[:react-native-webview] /home/user/Learn react/TestFilms/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+48            android:grantUriPermissions="true" >
+48-->[:react-native-webview] /home/user/Learn react/TestFilms/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+49            <meta-data
+49-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:13-17:70
+50                android:name="android.support.FILE_PROVIDER_PATHS"
+50-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:16:17-67
+51                android:resource="@xml/file_provider_paths" />
+51-->[:react-native-image-picker] /home/user/Learn react/TestFilms/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:17-67
+52        </provider>
+53
+54        <meta-data
+54-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/user/.gradle/caches/transforms-3/1c95ccc7111bab0499953e77960d3bdd/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+55            android:name="com.bumptech.glide.integration.okhttp3.OkHttpGlideModule"
+55-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/user/.gradle/caches/transforms-3/1c95ccc7111bab0499953e77960d3bdd/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+56            android:value="GlideModule" />
+56-->[com.github.bumptech.glide:okhttp3-integration:4.12.0] /home/user/.gradle/caches/transforms-3/1c95ccc7111bab0499953e77960d3bdd/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.0.0] /home/user/.gradle/caches/transforms-3/6500ef9946bc7b6d77e820a45fe1d85f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.0.0] /home/user/.gradle/caches/transforms-3/6500ef9946bc7b6d77e820a45fe1d85f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:27:13-67
+60            android:authorities="com.testfilms.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.0.0] /home/user/.gradle/caches/transforms-3/6500ef9946bc7b6d77e820a45fe1d85f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:28:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.0.0] /home/user/.gradle/caches/transforms-3/6500ef9946bc7b6d77e820a45fe1d85f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:29:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.0.0] /home/user/.gradle/caches/transforms-3/6500ef9946bc7b6d77e820a45fe1d85f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.0.0] /home/user/.gradle/caches/transforms-3/6500ef9946bc7b6d77e820a45fe1d85f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:32:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.0.0] /home/user/.gradle/caches/transforms-3/6500ef9946bc7b6d77e820a45fe1d85f/transformed/jetified-emoji2-1.0.0/AndroidManifest.xml:33:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/user/.gradle/caches/transforms-3/03b4b9e744e49cd3c48e6cba3234cbb6/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/user/.gradle/caches/transforms-3/03b4b9e744e49cd3c48e6cba3234cbb6/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.0] /home/user/.gradle/caches/transforms-3/03b4b9e744e49cd3c48e6cba3234cbb6/transformed/jetified-lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>
